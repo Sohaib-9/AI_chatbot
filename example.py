@@ -24,7 +24,7 @@ command = '''
 [6:22 pm, 06/08/2025] ^_Sohaib_^: Oye agaya na ghr tu?
 [7:29 pm, 06/08/2025] Rohaan: Direct tuition nikal gaya tha'''
 response = client.chat.completions.create(
-    model="gpt-3.5-turbo",
+    model="gpt-5-nano",
     messages=[
         {"role": "system", "content": "you are a person named sohaib who speaks urdu as well as english."
         "he is from pakistan and has a fun,cheerfull personality. you analyze chat history and respond like sohaib"},

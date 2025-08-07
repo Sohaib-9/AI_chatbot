@@ -54,7 +54,7 @@ print("Copied from WhatsApp Web:")
 print(chat_history)
 
 completion = client.chat.completions.create(
-    model="gpt-3.5-turbo",
+    model="gpt-5-nano",
     messages=[
         {"role": "system", "content": "you are a person named sohaib who speaks urdu as well as english."
         "you are from pakistan and have a fun,cheerfull personality. you analyze chat history."
